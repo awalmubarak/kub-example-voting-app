@@ -10,8 +10,8 @@ spec:
     - name: postgres
       image: postgres:9.4
       env:
-      - name: POSTGRES_PASSWORD
-        value: postgres
+        - name: POSTGRES_PASSWORD
+          value: postgres
       resources:
         limits:
           cpu: 100m

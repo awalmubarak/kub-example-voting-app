@@ -11,5 +11,5 @@ spec:
       image: dockersamples/examplevotingapp_worker
       resources:
         limits:
-          cpu: 100mi
-          memory: 200m
+          cpu: 100m
+          memory: 200Mi
